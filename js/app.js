@@ -1,1 +1,68 @@
 'use strict'
+
+ function quest1(){
+     let ans1 = prompt('Ive been into the art of dancing for almost 10 years, do believe me?');
+     console.log(ans1)
+
+     if(ans1.toLowerCase() == 'yes'){
+         alert('Correct! Its been a second')
+     } else{
+         alert('Suprised?! Its actually been almost 10 years now!')
+         return ans1;
+     }
+ }
+
+function visitor() {
+    let userName = prompt('Enter Name Please');
+    if (userName != null) {
+        document.getElementById("visit").innerHTML = "Welcome to the party " + userName + "sky!";
+    }
+}
+
+function quest2(){
+    let ans2 = prompt('true or false,When I was in Japan I got to train at a studio for dancing');
+    console.log(ans2)
+
+    if(ans2.toLowerCase() == 'true'){
+        alert('You are right! It was a crazy fun experience!')
+    } else{
+        alert('Suprised again?! Japans gotta some pretty good dance studios!')
+        return ans2;
+    }
+}
+
+function quest3(){
+    let ans3 = prompt('Another true or false! - Mushrooms are one of my favorite foods');
+    console.log(ans3)
+
+    if(ans3.toLowerCase() == 'false'){
+        alert('Correct! I had to eat a whole plate of mushrooms and my body will immediately reject it now lol')
+    } else{
+        alert('Bzzz! Wrong Answer! Mushrooms mess me up dude!')
+        return ans3;
+    }
+}
+
+function quest4(){
+    let ans4 = prompt('ROUND4!!! Would you believe me if I said that I have to jump to reach the top shelf at the grocery store?');
+    console.log(ans4)
+
+    if(ans4.toLowerCase() == 'yes'){
+        alert('You got it right! Im only 4-10 T_T')
+    } else{
+        alert('Pshhh I wish, on a good day I only have to tippy toe')
+        return ans4;
+    }
+}
+
+function quest5(){
+    let ans5 = prompt('LAST ROUND DUDE! true or false, I am only 21yrs old');
+    console.log(ans5)
+
+    if(ans5.toLowerCase() == 'false'){
+        alert('You got it right! Im 27, the Johnny Depp phase is gonna hit any moment now!')
+    } else{
+        alert('Nope wrong again! Im 27 now, the Johnny Depp phase is gonna hit any moment now!')
+        return ans5;
+    }
+}
