@@ -1,0 +1,36 @@
+head {
+    background-color: black;
+    color:ivory;
+}
+
+body {
+    background-color:rgb(21, 27, 31);
+    color: ivory;
+    text-align: left;
+}
+
+header {
+    background-color: black;
+    color: ivory;
+    text-align: center;
+    font-size: 200%;
+    font-style:initial;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    padding: 100px;
+    color: rgb(183, 250, 83);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2:hover {
+    background-image: url("https://i.ibb.co/9p5K554/Blues-Clues-Dude.png");
+}
+
+p {
+    font-size: 20px;
+}
