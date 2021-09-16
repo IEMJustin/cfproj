@@ -4,14 +4,14 @@ head {
 }
 
 body {
-    background-color:rgb(21, 27, 31);
+    background-color:rgb(17, 20, 22);
     color: ivory;
-    text-align: left;
+    text-align:left;
 }
 
 header {
     background-color: black;
-    color: ivory;
+    color: darkorange;
     text-align: center;
     font-size: 200%;
     font-style:initial;
@@ -21,10 +21,11 @@ header {
 button {
     background-color: rgb(0, 0, 0);
     padding: 100px;
-    color:rgb(0, 68, 255);
+    color:darkorange;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    align-items: center;
 }
 
 h2:hover {
@@ -33,4 +34,19 @@ h2:hover {
 
 p {
     font-size: 20px;
+    text-align: center;
+}
+
+ol {
+    background-color: black;
+    color: darkorange;
+}
+
+ul {
+    background-color: black;
+    color: darkorange;
+}
+
+.Operationsup {
+    color: darkred;
 }
