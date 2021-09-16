@@ -16,6 +16,7 @@ function visitor() {
     var userName = prompt('Enter Name Please');
     if (userName != null) {
         document.getElementById("visit").innerHTML = "Welcome to the party " + userName + "sky!";
+        document.getElementById("visit").style.color = "rgb(0, 68, 255)"
     }
 }
 
@@ -76,7 +77,7 @@ function guessingGame() {
     let targetNum = 6;
     console.log(targetNum);
 // Declare function
-for (var i = 0; i < 5; i++) {
+for (var i = 0; i < 25; i++) {
     if (guessAttempt == 4) {
         alert('Yikes');
         break;
