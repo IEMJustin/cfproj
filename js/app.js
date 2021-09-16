@@ -1,5 +1,6 @@
 'use strict'
 
+function start(){
 function quest1(){
      let ans1 = prompt('Ive been into the art of dancing for almost 10 years, do believe me?');
      console.log(ans1)
@@ -131,3 +132,6 @@ function favoriteGuess() {
 }
 guessColor = prompt("That was guess number" + colorCounter);
 }
+
+}
+start();
