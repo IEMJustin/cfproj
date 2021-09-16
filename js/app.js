@@ -132,8 +132,8 @@ function favoriteGuess() {
 }
 guessColor = prompt("That was guess number" + colorCounter);
 }
-quest1();
 visitor();
+quest1();
 quest2();
 quest3();
 quest4();
