@@ -1,6 +1,6 @@
 'use strict'
 
- function quest1(){
+function quest1(){
      let ans1 = prompt('Ive been into the art of dancing for almost 10 years, do believe me?');
      console.log(ans1)
 
@@ -13,7 +13,7 @@
  }
 
 function visitor() {
-    let userName = prompt('Enter Name Please');
+    var userName = prompt('Enter Name Please');
     if (userName != null) {
         document.getElementById("visit").innerHTML = "Welcome to the party " + userName + "sky!";
     }
@@ -65,4 +65,69 @@ function quest5(){
         alert('Nope wrong again! Im 27 now, the Johnny Depp phase is gonna hit any moment now!')
         return ans5;
     }
+}
+
+// Prompt User to start game
+let userGuess = prompt('Im thinking of a number 1-25');
+let guessAttempt = 0;
+// Assign initial guess counts
+
+function guessingGame() {
+    let targetNum = 6;
+    console.log(targetNum);
+// Declare function
+for (var i = 0; i < 25; i++) {
+    if (guessAttempt == 4) {
+        alert('Yikes');
+        break;
+        if (userGuess > targetNum) {
+            alert('Too High!');
+        }
+        if (userGuess < targetNum) {
+            alert('Too Low!');
+        }
+        if (userGuess == targetNum) {
+            guessAttempt++;
+
+            alert('That took' + guessAttempt.toString() + 'tries');
+            break;
+        }
+        else if (!userGuess) {
+            alert('Please try again');
+        }
+        guessAttempt++;
+        numberGuess = prompt('You guessed' + guessAttempt + 'times!');
+    }
+}
+}
+
+// Create Array, answers are "static"
+const favColor = ["red", "black", "white", "turqoise", "lightblue", "grey"];
+
+// Prompt game
+let guessColor = prompt(
+
+);
+let colorCounter = 1;
+
+function favoriteGuess() {
+    // if true, set loop
+    if (colorCounter == 6) {
+        console.log("inside");
+        alert("Gameover");
+    }
+    for (var i = 0; i < 6; i++) {
+        console.log("in", i);
+
+    if (guessColor.toLowerCase() == favColor[i]) {
+        // Win statement
+        console.log('inside guess win', guessColor);
+        alert("Nicely done" + userName);
+        break;
+    }
+}
+    if (guessColor.toLowerCase() !== favColor[i]) {
+        console.log('inside', i);
+}
+guessColor = prompt("That was guess number" + colorCounter);
 }
