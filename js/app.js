@@ -76,7 +76,7 @@ function guessingGame() {
     let targetNum = 6;
     console.log(targetNum);
 // Declare function
-for (var i = 0; i < 25; i++) {
+for (var i = 0; i < 5; i++) {
     if (guessAttempt == 4) {
         alert('Yikes');
         break;
