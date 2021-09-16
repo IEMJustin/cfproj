@@ -107,9 +107,7 @@ for (var i = 0; i < targetNum ; i++) {
 const favColor = ["red", "black", "white", "turqoise", "lightblue", "grey"];
 
 // Prompt game
-let guessColor = prompt(
-
-);
+let guessColor = prompt('Guess my favorite color');
 let colorCounter = 1;
 
 function favoriteGuess() {
