@@ -5,8 +5,7 @@ head {
 
 body {
     background-color:rgb(17, 20, 22);
-    color: ivory;
-    text-align:left;
+    color: darkorange;
 }
 
 header {
@@ -28,13 +27,22 @@ button {
     align-items: center;
 }
 
+button:hover::after {
+    text-align:end;
+    content:" ^_^ ";
+}
+
+button:hover:before {
+    content:" ^_^ "
+}
+
 h2:hover {
     background-image: url("https://i.ibb.co/9p5K554/Blues-Clues-Dude.png");
+    text-align: center;
 }
 
 p {
     font-size: 20px;
-    text-align: center;
 }
 
 ol {
@@ -47,6 +55,6 @@ ul {
     color: darkorange;
 }
 
-.Operationsup {
-    color: darkred;
+.paragraph {
+    background-color: black;
 }
